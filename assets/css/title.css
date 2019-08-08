@@ -1,9 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise");
 		#text{
-			font-family: "Sacramento", cursive;
+			font-family: 'Waiting for the Sunrise';
 			color: white; 
 			position: absolute; 
 			z-index: 1000px; 
+			font-weight: lighter;
+		}
+		#date{
+			font-family: 'Waiting for the Sunrise';
+			color: white; 
+			text-align: left; 
+			font-size: 30px;
 		}
 		h1 {
 		  font-size: calc(20px + 13vh);
